@@ -1,5 +1,15 @@
 // <!-- create 4 buttons with id and class -->
+// find 4 gem images
+// make them part of the button
+
+//make a space to show the random number 
+/* make a place to show wins and losses
+make a place to show total points during the game
+
+
+
 /* !-- generate a random number for the score between 19-120 (math.random math.floor?-->
+    print on screen
 
     <!-- generate a random hidden number for 1-12 points for each gem
 
