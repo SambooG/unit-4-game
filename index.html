@@ -10,11 +10,11 @@
 </head>
 <body>
     <!-- heading -->
-    <head>
-        <div class = "heading">
+    <header>
+        
         <h1>CrystalsCollector!</h1>
-        </div>
-    </head>
+        
+    </header>
     <!-- text, directions -->
     <div class = "directions">
         <p>You will be given a random number at the start of the game.</p>
@@ -24,10 +24,11 @@
             <br>
         <p>The value of each crystal is hidden from you until you click on it.</p>
             <br>
-        <p>Each time when the game starts, the game will chznge the values of each crystal.</p>
+        <p>Each time when the game starts, the game will change the values of each crystal.</p>
     </div>
 
-    <!-- box for  -->
+    <!-- box for target number
+     -->
     <div id = "target-box" class = "target-box">
 
     </div>
@@ -36,10 +37,10 @@
         <!-- create 4 buttons with id and class -->
     <div class = "container">    
 
-    <input type = "image" id = "1gem" class = "1gem" src = "assets/images/heartgem.jpeg"></input>
-    <input type = "image" id = "2gem" class = "2gem" src = assets/images/images.jpeg></input>
-    <input type = "image" id = "3gem" class = "3gem" src = assets/images/pinkgem.jpeg></input>
-    <input type = "image" id = "4gem" class = "4gem" src = assets/images/redgem.jpeg></input>
+    <input type = "image" id = "1gem" class = "gem" src = "assets/images/heartgem.jpeg"></input>
+    <input type = "image" id = "2gem" class = "gem" src = assets/images/images.jpeg></input>
+    <input type = "image" id = "3gem" class = "gem" src = assets/images/pinkgem.jpeg></input>
+    <input type = "image" id = "4gem" class = "gem" src = assets/images/redgem.jpeg></input>
     
     </div>
 
@@ -49,6 +50,7 @@
 
     </div>
 
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
     <!-- generate a random number for the score between 19-120 (math.random math.floor?-->
 
     <!-- generate a random hidden number for 1-12 points for each gem
