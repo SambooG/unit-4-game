@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type= "text/css" href= "assets/css/reset.css">
     <link rel="stylesheet" type= "text/css" href= "assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>Document</title>
 </head>
 <body>
@@ -15,6 +16,13 @@
         <h1>CrystalsCollector!</h1>
         
     </header>
+
+     <div>
+        Wins: <span id = "wins"></span>
+        Losses: <span id = "losses"></span>
+
+     </div>
+
     <!-- text, directions -->
     <div class = "directions">
         <p>You will be given a random number at the start of the game.</p>
@@ -30,24 +38,24 @@
     <!-- box for target number
      -->
     <div id = "target-box" class = "target-box">
-
+        <p id="target-number"></p>
     </div>
 
     
         <!-- create 4 buttons with id and class -->
     <div class = "container">    
 
-    <input type = "image" id = "1gem" class = "gem" src = "assets/images/heartgem.jpeg"></input>
-    <input type = "image" id = "2gem" class = "gem" src = assets/images/images.jpeg></input>
-    <input type = "image" id = "3gem" class = "gem" src = assets/images/pinkgem.jpeg></input>
-    <input type = "image" id = "4gem" class = "gem" src = assets/images/redgem.jpeg></input>
+    <input type = "image" id = "gemA" class = "gem" src = "assets/images/heartgem.jpeg"></input>
+    <input type = "image" id = "gemB" class = "gem" src = assets/images/images.jpeg></input>
+    <input type = "image" id = "gemC" class = "gem" src = assets/images/pinkgem.jpeg></input>
+    <input type = "image" id = "gemD" class = "gem" src = assets/images/redgem.jpeg></input>
     
     </div>
 
     <!-- container for  current score-->
     
     <div id = "current-score" class = "current-score">
-
+        <p id="active-score"></p>
     </div>
 
     <script type="text/javascript" src="assets/javascript/game.js"></script>
