@@ -6,42 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type= "text/css" href= "assets/css/reset.css">
     <link rel="stylesheet" type= "text/css" href= "assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <title>Document</title>
 </head>
 <body>
     <!-- heading -->
-    <header>
+    <div class = "header">
         
         <h1>CrystalsCollector!</h1>
         
-    </header>
-
-     <div>
-        Wins: <span id = "wins"></span>
-        Losses: <span id = "losses"></span>
-
-     </div>
-
+    </div>
+    <br> 
+    
     <!-- text, directions -->
     <div class = "directions">
         <p>You will be given a random number at the start of the game.</p>
-            <br>
+        <br>
         <p>There are four crystals belows. By clicking on a crystal 
             you will add a specific amount of points to your total score.</p>
             <br>
-        <p>The value of each crystal is hidden from you until you click on it.</p>
+            <p>The value of each crystal is hidden from you until you click on it.</p>
             <br>
-        <p>Each time when the game starts, the game will change the values of each crystal.</p>
+            <p>Each time when the game starts, the game will change the values of each crystal.</p>
+        </div>
+        <br>
+    <div class = "winloss">
+        Wins: <span id = "wins"></span>
+        Losses: <span id = "losses"></span>
+                                            
     </div>
-
+    <br>
     <!-- box for target number
      -->
     <div id = "target-box" class = "target-box">
         <p id="target-number"></p>
     </div>
 
-    
+    <br>
         <!-- create 4 buttons with id and class -->
     <div class = "container">    
 
@@ -55,6 +57,7 @@
     <!-- container for  current score-->
     
     <div id = "current-score" class = "current-score">
+        <br>
         <p id="active-score"></p>
     </div>
 
